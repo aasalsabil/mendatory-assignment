@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+header{
+    border-bottom: 1px solid black;
+}
+.header_part{
+
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+    /*! border-bottom: 1px solid black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+
+    width: 20%;
+    float: left;
+}
+nav{
+
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+nav ul{
+
+    list-style: none;
+    overflow: hidden;
+    float: right;
+}
+nav ul li{
+
+    float: left;
+    margin-left: 30px;
+}
+nav ul li a{
+    
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+}
+.content-section{
+
+    width: 70%;
+    margin-left: 15%;
+}
+.content-section h1{
+    
+    font-size: 45px;
+    text-align: center;
+    color: #0F2656;
+    margin-top: 30px;
+}
+.content-section h2{
+    
+    font-size: 45px;
+    text-align: center;
+    color: #068CFF;
+    margin-top: 15px;
+}
+.content-section p{
+    
+    text-align: center;
+    font-size: 15px;
+    color: #383573;
+    /*! margin-top: 10px; */
+    margin: 20px 0;
+}
+.img{
+
+    text-align: center;
+}
+.img img{
+
+    width: 50%;
+}
+.project_content{
+
+    overflow: hidden;
+}
+.left_content{
+
+    float: left;
+    width: 48%;
+}
+.left_content h1{
+    
+    color: #F15767;
+    text-align: right;
+}
+.left_content p{
+    
+    text-align: right;
+}
+.right_content{
+
+    float: right;
+    width: 48%;
+}
+.right_content h1{
+
+    text-align: left;
+}
+.service{
+
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service_one{
+
+    background-color: #FDEBED;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 30px 0;
+}
+.service_one img{
+    
+    width: 49%;
+    /*! padding\ top: 10px; */
+    padding-top: 10px;
+}
+.service_one h2{
+    
+    padding: 10px;
+}
+.service_one p{
+    
+    text-align: left;
+    padding: 10px;
+}
+.service_two{
+
+    background-color: #EBF9F4;
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    padding: 30px 0;
+}
+.service_two img{
+    
+    width: 46.5%;
+    padding-top: 10px;
+}
+.service_two h2{
+    
+    text-align: left;
+    padding: 10px;
+}
+.service_two p{
+    
+    text-align: left;
+    padding: 10px;
+}
+.service_three{
+
+    background-color: #FFF7E8;
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding: 30px 0;
+}
+.service_three img{
+
+    width: 41%;
+    padding-top: 10px;
+}
+.service_three h2{
+
+    text-align: left;
+    padding: 10px;
+}
+.service_three p{
+
+    text-align: left;
+    padding: 10px;
+}
+footer{
+
+    background: #008AFF;
+    padding: 30px 0;
+}
+footer p{
+
+    text-align: center;
+    color: #b9b9b9;
+    /*! font-size: 25px; */
+}
+footer p span{
+
+    color: #E7FCFF;
+    font-size: 20px;
+    font-weight: 700;
+}
